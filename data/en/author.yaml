@@ -1,0 +1,13 @@
+name: "Antonio Hernández"
+nickname: "Chapikas"
+
+greeting: "Hi, I am"
+image: "images/author/antonio.jpg"
+
+contactInfo:
+  email: "granviamurcia2@gmail.com"
+
+summary: 
+  - "I am a Developer"
+  - "I am a Devops"
+  - "I love servers"

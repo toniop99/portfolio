@@ -1,0 +1,37 @@
+section:
+  name: Experiencia
+  id: experiences
+  enable: true
+  weight: 3
+
+experiences:
+- company:
+    name: Fotaka
+    url: "https://fotaka.org/"
+    location: Murcia
+    overview: Empresa dedicada a la fotografía y videografía profesional.
+    
+  positions:
+  - designation: Edición de vídeo y fotografía
+    start: Noviembre 2019
+
+    responsibilities:
+    - Design and develop XYZ tool for ABC task
+    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    - Lead backend team.
+
+
+- company:
+    name: Freelance
+    location: Planeta
+
+    # company overview
+    overview: Realización de proyectos a pequeñas empresas y particulares.
+  positions:
+  - designation: Software Developer
+    start: Enero 2017
+
+    responsibilities:
+    - Design and develop XYZ tool for ABC task
+    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
+    - Lead backend team.
