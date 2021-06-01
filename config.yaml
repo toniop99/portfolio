@@ -1,0 +1,48 @@
+baseURL: http://example.org/
+
+languageCode: es-ES
+title: "Tony"
+theme: "toha"
+
+defaultContentLanguage: es
+
+languages:
+  es:
+    languageName: Español
+    weight: 1
+
+  #en:
+  #  languageName: English
+  #  weight: 2
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+enableEmoji: true
+
+# Site parameters
+params:
+  background: "images/city-background.jpg"
+
+  logo:
+    main: images/main-logo.png
+    inverted: images/inverted-logo.png
+    favicon: images/favicon.png
+
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/chapikas
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: false
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    false: true
