@@ -1,0 +1,33 @@
+name: Deploy web to Github Pages
+
+# Execute the following action when there is a push to the source branch
+on:
+  push:
+    branches:
+    - source
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    # We do a checkout to the commit that has been pushed
+    -uses: actions/checkout@v2.3.4
+    with:
+      submodules: true
+      fetch-depth: 0
+
+    - name: Setup Hugo on the machine
+    uses: peaceiris/actions-hugo@v2.4.13
+    with:
+      hugo-version: '0.83.1'
+      extended: true
+
+    - name: Build the website
+      run: hugo --minify
+
+    - name: Deploy the website
+      uses: peaceiris/actions-gh-pages@v3.7.3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: main
+        publish_dir: ./public
