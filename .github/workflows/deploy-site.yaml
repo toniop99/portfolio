@@ -17,17 +17,17 @@ jobs:
         fetch-depth: 0
 
     - name: Setup Hugo on the machine
-    uses: peaceiris/actions-hugo@v2.4.13
-    with:
-      hugo-version: '0.83.1'
-      extended: true
+      uses: peaceiris/actions-hugo@v2.4.13
+      with:
+        hugo-version: '0.83.1'
+        extended: true
 
-  - name: Build the website
-    run: hugo --minify
+    - name: Build the website
+      run: hugo --minify
 
-  - name: Deploy the website
-    uses: peaceiris/actions-gh-pages@v3.7.3
-    with:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
-      publish_branch: main
-      publish_dir: ./public
+    - name: Deploy the website
+      uses: peaceiris/actions-gh-pages@v3.7.3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: main
+        publish_dir: ./public
