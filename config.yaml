@@ -34,7 +34,7 @@ params:
     favicon: images/favicon.png
 
   # GitHub repo URL of your site
-  gitRepo: https://github.com/chapikas
+  gitRepo: https://github.com/toniop99/portfolio
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: false
