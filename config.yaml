@@ -3,6 +3,7 @@ baseURL: https://antoniohnz.me/
 languageCode: es-ES
 title: "Tony"
 theme: "toha"
+googleAnalytics: G-FPMKHKLW50
 
 defaultContentLanguage: es
 
