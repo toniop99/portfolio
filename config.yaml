@@ -11,12 +11,15 @@ languages:
     languageName: Español
     weight: 1
 
-  #en:
-  #  languageName: English
-  #  weight: 2
+  en:
+    languageName: English
+    weight: 2
 
 # Control TOC depth
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   tableOfContents:
     startLevel: 2
     endLevel: 6
@@ -33,6 +36,7 @@ enableEmoji: true
 # Site parameters
 params:
   background: images/site/city-background.jpg
+  image_404: images/site/image_404.png
 
   logo:
     main: images/logos/main-logo.png
