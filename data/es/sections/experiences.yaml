@@ -13,12 +13,14 @@ experiences:
     
   positions:
   - designation: Edición de vídeo y fotografía
-    start: Noviembre 2019
+    start: Mayo 2019
 
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Desarrollo en la edición de vídeo.
+    - Edición de fotografía profesional.
+    - Construcción de página web.
+    - Desarrollo de sistema de gestión de contratos.
+    - Seguridad y gestión informática.
 
 
 - company:
@@ -26,12 +28,13 @@ experiences:
     location: Planeta
 
     # company overview
-    overview: Realización de proyectos a pequeñas empresas y particulares.
+    overview: Realización de proyectos de diversos tipos a pequeñas empresas y particulares.
   positions:
   - designation: Software Developer
-    start: Enero 2017
+    start: Enero 2018
 
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - Resolución de problemas y tareas.
+    - Diseño, Gestión y realización de proyectos.
+    - Creación de páginas web.
+    - Aplicaciones para gestiones concreatas de una empresa.

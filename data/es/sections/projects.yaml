@@ -1,8 +1,8 @@
 section:
-  name: Proyectos Personales
+  name: Proyectos
   id: projects
   enable: true
-  weight: 3
+  weight: 1
   showOnNavbar: true
 
 buttons:
@@ -10,17 +10,30 @@ buttons:
     filter: "all"
   - name: Profesionales
     filter: "professional"
-  - name: Academicos
-    filter: "academic"
   - name: Hobby
     filter: "hobby"
   
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
+- name: Web Printlab
+  logo: /images/sections/projects/printlab/logo.png
+  projectImage: /images/sections/projects/printlab/preview.png
+  role: Desarrollador
+  timeline: "Octubre 2020 - Diciembre 2020"
+  url: "https://printlab.es/#/"
+  summary: Desarrollo de página web para laboratorio fotográficocon una zona interna para customizar la web.
+  tags: ["professional", "laravel", "Vue"]
+
+- name: Offers Bot
+  logo: /images/sections/projects/offers_bot/logo.png
+  role: Creador - Desarrollador
+  timeline: "Enero 2021 - Actualidad"
+  #repo: 
+  url: "https://t.me/Alcantarilla24Horas" 
+  summary: "Desarrollo de un bot de Telegram para el uso de varios comercios de Alcantarilla (Murcia). 
+            Entre sus funcionalidades se encuentran:
+              <ul>
+                <li>Cada comercio puede gestionar, crear y editar sus propias ofertas</li>
+                <li>Publicar ofertas creadas por cada comercio, en un grupo de telegram.</li>
+                <li>Los participantes del grupo pueden interactuar con las ofertas de cada comercio de diversas formas.</li>
+              </ul>"
   tags: ["professional", "kubernetes", "cloud"]
