@@ -20,7 +20,7 @@ projects:
   role: Desarrollador
   timeline: "Octubre 2020 - Diciembre 2020"
   url: "https://printlab.es/#/"
-  summary: Desarrollo de página web para laboratorio fotográficocon una zona interna para customizar la web.
+  summary: Desarrollo de página web para laboratorio fotográfico con una zona interna para customizar la web.
   tags: ["professional", "laravel", "Vue"]
 
 - name: Offers Bot
@@ -36,4 +36,25 @@ projects:
                 <li>Publicar ofertas creadas por cada comercio, en un grupo de telegram.</li>
                 <li>Los participantes del grupo pueden interactuar con las ofertas de cada comercio de diversas formas.</li>
               </ul>"
-  tags: ["professional", "kubernetes", "cloud"]
+  tags: ["professional", "express", "typescript"]
+
+- name: Gestión de contratos
+  logo: /images/sections/projects/fotaka_management/logo.png
+  role: Creador - Desarrollador
+  timeline: "Abril 2021 - Actualidad"
+  repo: https://github.com/toniop99/fotaka-management
+  summary: "Aplicación de escritorio desarrollada con **electron** y **react**. 
+            Las funcionalidades esperadas de esta aplicación son:
+              <ul>
+                <li>Creación de contratos para los diferentes servicios de la empresa de manera dinámica</li>
+                <li>Gestión de eventos compartida entre todas las tiendas de la empresa.</li>
+              </ul>
+            Para todo esto se hace uso de **nodejs**, y la **api de google** para acceder a un calendario común." 
+  tags: ["professional", "electron", "react", "google api"]
+
+- name: DefinitelyTyped
+  logo: /images/sections/projects/DefinitelyTyped/logo.png
+  role: Colaborador
+  timeline: "Abril 2021 - Actualidad"
+  repo: https://github.com/DefinitelyTyped/DefinitelyTyped
+  tags: ["hobby", "typescript"]

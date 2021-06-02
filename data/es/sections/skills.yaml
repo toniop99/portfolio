@@ -27,7 +27,7 @@ skills:
 
 - name: ElectronJS
   logo: /images/sections/skills/electron.png
-  summary: "Me encanta la facilidad que te proporciona para poder crear aplicaciones muy potentes centrandote únicamente en la lógica de tu app y quitándote las complejidades del SO."
+  summary: "Me encanta la facilidad que te proporciona para poder crear aplicaciones muy potentes centrándote únicamente en la lógica de tu app y quitándote las complejidades del SO."
   url: "https://www.electronjs.org/"
 
 - name: PHP
@@ -37,7 +37,7 @@ skills:
 
 - name: Laravel
   logo: /images/sections/skills/laravel.png
-  summary: "Con este framework desarrollé mi primera página web profesional. Que recuerdoss..."
+  summary: "Con este framework desarrollé mi primera página web profesional. Que recuerdos..."
   url: "https://laravel.com/"
 
 - name: Android
