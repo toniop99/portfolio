@@ -1,13 +1,14 @@
 name: "Antonio Hernández"
 nickname: "Antonio"
 
-greeting: "Hola, yo soy"
+greeting: "Hola, me llamo"
 image: "images/author/antonio.jpg"
 
 contactInfo:
   email: "granviamurcia2@gmail.com"
 
 summary: 
-  - "Soy desarrollador"
-  - "Soy programador"
-  - "Soy ingeniero"
+  - "Desarrollo"
+  - "Programación"
+  - "Diseño"
+  - "Innovación"
