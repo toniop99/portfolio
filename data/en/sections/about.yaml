@@ -1,0 +1,42 @@
+section:
+  name: About me
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+resume: "files/resume.pdf"
+
+summary: '
+  Full Stack developer with the intention of facilitating processes
+  and actions through your ideas and wishes. I love development
+  of software in all its aspects, from implementing a web page, to working on apps for other devices.
+  Music and video game lover'
+
+socialLinks:
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/toniop99"
+
+  - name: Linkedin
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/antoniohnandez/"
+
+badges:
+  - type: soft-skill-indicator
+    name: Constancy
+    percentage: 100
+    color: pink
+
+  - type: soft-skill-indicator
+    name: Communication
+    percentage: 90
+    color: "#3f51b5"
+
+  - type: soft-skill-indicator
+    name: Teamwork
+    percentage: 80
+    color: "#9c27b0"
+
+  

@@ -1,13 +1,14 @@
 name: "Antonio Hernández"
-nickname: "Chapikas"
+nickname: "Antonio"
 
-greeting: "Hi, I am"
+greeting: "Hi, my name is"
 image: "images/author/antonio.jpg"
 
 contactInfo:
   email: "granviamurcia2@gmail.com"
 
 summary: 
-  - "I am a Developer"
-  - "I am a Devops"
-  - "I love servers"
+  - "Developing"
+  - "Programming"
+  - "Designing"
+  - "Innovation"

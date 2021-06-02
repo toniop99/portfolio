@@ -1,0 +1,40 @@
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+
+experiences:
+- company:
+    name: Fotaka
+    url: "https://fotaka.org/"
+    location: Murcia
+    overview: Company dedicated to proffesional photography and videography.
+    
+  positions:
+  - designation: Video and photo editing
+    start: May 2019
+
+    responsibilities:
+    - Development of video editing.
+    - Professional photo editing.
+    - web page creation.
+    - Development of a contract management system.
+    - IT security and management.
+
+
+- company:
+    name: Freelance
+    location: Worldwide
+
+    # company overview
+    overview: Carrying out projects of various types for small companies and individuals.
+  positions:
+  - designation: Software Developer
+    start: Jan 2018
+
+    responsibilities:
+    - Problems and tasks resolution.
+    - Design, management and implementation of projects.
+    - Creation of webpages.
+    - Applications for concrete management of a company.

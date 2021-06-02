@@ -1,0 +1,60 @@
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 1
+  showOnNavbar: true
+
+buttons:
+  - name: All
+    filter: "all"
+  - name: Professional
+    filter: "professional"
+  - name: Hobby
+    filter: "hobby"
+  
+projects:
+- name: Web Printlab
+  logo: /images/sections/projects/printlab/logo.png
+  projectImage: /images/sections/projects/printlab/preview.png
+  role: Developer
+  timeline: "Oct 2020 - Dec 2020"
+  url: "https://printlab.es/#/"
+  summary: Development of a website for a photographic laboratory with an internal area to customize the website.
+  tags: ["professional", "laravel", "Vue"]
+
+- name: Offers Bot
+  logo: /images/sections/projects/offers_bot/logo.png
+  role: Creator - Developer
+  timeline: "Jan 2021 - Present"
+  #repo: 
+  url: "https://t.me/Alcantarilla24Horas" 
+  summary: "Development of a Telegram bot for the use of several shops in Alcantarilla (Murcia).
+            Among its functionalities are:
+              <ul>
+                <li>Each business can manage, create and edit their own offers.</li>
+                <li>Publish offers created by each business, in a telegram group.</li>
+                <li>Group participants can interact with the offers of each business in different ways.</li>
+              </ul>"
+  tags: ["professional", "express", "typescript"]
+
+- name: Contract management
+  logo: /images/sections/projects/fotaka_management/logo.png
+  role: Creator - Developer
+  timeline: "Apr 2021 - Present"
+  repo: https://github.com/toniop99/fotaka-management
+  summary: "Desktop application developed with ** electron ** and ** react **.
+            The expected functionalities of this application are:
+              <ul>
+                <li>Creation of contracts for the different services of the company in a dynamic way.</li>
+                <li>Event management shared between all the company's stores. </li>
+              </ul>
+            For all this, ** nodejs ** is used, and the ** google api ** to access a common calendar." 
+  tags: ["professional", "electron", "react", "google api"]
+
+- name: DefinitelyTyped
+  logo: /images/sections/projects/DefinitelyTyped/logo.png
+  role: Contributor
+  timeline: "Apr 2021 - Present"
+  repo: https://github.com/DefinitelyTyped/DefinitelyTyped
+  tags: ["hobby", "typescript"]
