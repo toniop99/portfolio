@@ -11,8 +11,11 @@ other = "Contenido"
 [at]
 other = "en"
 
+[development-skill]
+other = "En progreso"
+
 [resume]
-other = "Mi currículum"
+other = "CV"
 
 [navigation]
 other = "Navegación"
@@ -77,11 +80,11 @@ other = "Ver más"
 [show_less]
 other = "Muestra menos"
 
-# [responsibilities]
-# other = "Responsibilities:"
+[responsibilities]
+other = "Responsabilidades:"
 
-# [present]
-# other = "Present"
+[present]
+other = "Presente"
 
 # [comments_javascript]
 # other = "Please enable JavaScript to view the"
@@ -95,11 +98,11 @@ other = "Muestra menos"
 # [project_star]
 # other = "Star"
 
-# [project_details]
-# other = "Details"
+ [project_details]
+ other = "Ver"
 
-# [err_404]
-# other = "The page you are looking for is not there yet."
+[err_404]
+other = "La página que estás buscando no se encuentra por aquí 🐱‍🏍."
 
 [more]
 other = "Más"
