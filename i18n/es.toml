@@ -115,3 +115,18 @@ other = "Notas"
 
 [disclaimer_text]
 other = "Aviso de responsabilidad"
+
+[contact_email_label]
+other = "Correo electrónico"
+
+[contact_email_placeholder]
+other = "Escriba su correo electrónico"
+
+[contact_message_label]
+other = "Mensaje"
+
+[contact_message_placeholder]
+pther = "Escriba su mensaje"
+
+[contact_submit_button]
+other = "Enviar"

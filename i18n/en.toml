@@ -115,3 +115,18 @@ other = "Notes"
 
 [disclaimer_text]
 other = "Liability Notice"
+
+[contact_email_label]
+other = "Email"
+
+[contact_email_placeholder]
+other = "Write here your email"
+
+[contact_message_label]
+other = "Message"
+
+[contact_message_placeholder]
+other = "Write your message"
+
+[contact_submit_button]
+other = "Send"
