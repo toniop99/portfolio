@@ -1,0 +1,27 @@
+{{ $sectionID := replace (lower .section.name) " " "-"  }}
+{{ if .section.id }}
+  {{ $sectionID = .section.id }}
+{{ end }}
+
+<div class="container anchor p-lg-5 contact-section" id="{{ $sectionID }}">
+  {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">{{ .section.name }}</h1>
+  {{ end }}
+
+    <div class="form-group">
+        <form
+        action="https://formspree.io/f/xzbyrykj"
+        method="POST"
+        >
+            <label for="email">{{i18n "contact_email_label"}}</label>
+            <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="{{i18n "contact_email_placeholder" }}">
+
+            <div class="form-group">
+                <label for="message">{{i18n "contact_message_label"}}</label>
+                <textarea class="form-control" id="message" name="message" rows="3" placeholder="{{i18n "contact_message_placeholder" }}"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-lg btn-info">{{i18n "contact_submit_button"}}</button>
+        </form>
+    </div> 
+</div>

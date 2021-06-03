@@ -1,0 +1,7 @@
+section:
+  name: Contacto
+  id: contact
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  template: sections/contact.html
