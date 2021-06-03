@@ -6,7 +6,7 @@ section:
   showOnNavbar: true
   template: sections/about.html
 
-resume: "files/resume.pdf"
+resume: "files/resume_es.pdf"
 
 summary: '
   Desarrollador Full Stack con intención de facilitar procesos 
