@@ -52,6 +52,15 @@ projects:
             For all this, ** nodejs ** is used, and the ** google api ** to access a common calendar." 
   tags: ["professional", "electron", "react", "google api"]
 
+- name: URL shortener
+  logo: 
+  projectImage: /images/sections/projects/url_shortener/preview.png
+  role: Creator - Developer
+  timeline: "Jun 2021 - Present"
+  url: https://chapi.link/docs/
+  summary: "Api for creating shortened urls. Implemented with json web token, for access control and with MongoDB as database." 
+  tags: ["hobby", "typescript", "express", "jwt", "swagger", "MongoDB"]  
+
 - name: DefinitelyTyped
   logo: /images/sections/projects/DefinitelyTyped/logo.png
   role: Contributor

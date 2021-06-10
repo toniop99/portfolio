@@ -52,6 +52,14 @@ projects:
             Para todo esto se hace uso de **nodejs**, y la **api de google** para acceder a un calendario común." 
   tags: ["professional", "electron", "react", "google api"]
 
+- name: Acortador de urls
+  logo: 
+  role: Creador - Desarrollador
+  timeline: "Junio 2021 - Actualidad"
+  url: https://chapi.link/docs/
+  summary: "Api para la creación de urls acortadas. Implementado con json web token, para el control de acceso y con MongoDB como base de datos." 
+  tags: ["hobby", "typescript", "express", "jwt", "swagger", "MongoDB"]  
+
 - name: DefinitelyTyped
   logo: /images/sections/projects/DefinitelyTyped/logo.png
   role: Colaborador
