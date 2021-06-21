@@ -54,6 +54,7 @@ projects:
 
 - name: Acortador de urls
   logo: 
+  projectImage: /images/sections/projects/url_shortener/preview.png
   role: Creador - Desarrollador
   timeline: "Junio 2021 - Actualidad"
   url: https://chapi.link/docs/
