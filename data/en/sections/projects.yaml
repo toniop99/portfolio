@@ -23,6 +23,17 @@ projects:
   summary: Development of a website for a photographic laboratory with an internal area to customize the website.
   tags: ["professional", "laravel", "Vue"]
 
+- name: Fotaka
+  logo: /images/sections/projects/fotaka/logo.png
+  projectImage: /images/sections/projects/fotaka/preview.png
+  role: Desarrollador
+  timeline: "Jun 2021 - Present"
+  url: "https://fotaka.org"
+  summary: >
+    Creation of the web page with a service for the vision of interactive graduation class photo. Using <b> Laravel </b> and <b> Blade as templating engine </b>.
+    In future versions I foresee the use of React or vue to serve the web. Still in development.
+  tags: ["professional", "laravel", "blade"]
+
 - name: Offers Bot
   logo: /images/sections/projects/offers_bot/logo.png
   role: Creator - Developer
@@ -43,13 +54,13 @@ projects:
   role: Creator - Developer
   timeline: "Apr 2021 - Present"
   repo: https://github.com/toniop99/fotaka-management
-  summary: "Desktop application developed with ** electron ** and ** react **.
+  summary: "Desktop application developed with <b>electron</b> and <b>react</b>.
             The expected functionalities of this application are:
               <ul>
                 <li>Creation of contracts for the different services of the company in a dynamic way.</li>
                 <li>Event management shared between all the company's stores. </li>
               </ul>
-            For all this, ** nodejs ** is used, and the ** google api ** to access a common calendar." 
+            For all this, <b>nodejs</b> is used, and the <b>google api</b> to access a common calendar." 
   tags: ["professional", "electron", "react", "google api"]
 
 - name: URL shortener

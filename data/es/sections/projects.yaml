@@ -23,6 +23,17 @@ projects:
   summary: Desarrollo de página web para laboratorio fotográfico con una zona interna para customizar la web.
   tags: ["professional", "laravel", "Vue"]
 
+- name: Fotaka
+  logo: /images/sections/projects/fotaka/logo.png
+  projectImage: /images/sections/projects/fotaka/preview.png
+  role: Desarrollador
+  timeline: "Junio 2021 - Actualidad"
+  url: "https://fotaka.org"
+  summary: >
+    Creación de la página web con un servicio para la visión de orlas interactivas. Usando <b>Laravel</b> y <b>Blade como motor de plantillas</b>.
+    En futuras versiones preveo el uso de React o vue para servir la web. Aún en desarrollo.
+  tags: ["professional", "laravel", "blade"]
+
 - name: Offers Bot
   logo: /images/sections/projects/offers_bot/logo.png
   role: Creador - Desarrollador
