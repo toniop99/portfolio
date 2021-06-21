@@ -64,6 +64,6 @@ projects:
 - name: DefinitelyTyped
   logo: /images/sections/projects/DefinitelyTyped/logo.png
   role: Contributor
-  timeline: "Apr 2021 - Present"
+  timeline: "Apr 2021"
   repo: https://github.com/DefinitelyTyped/DefinitelyTyped
   tags: ["hobby", "typescript"]
