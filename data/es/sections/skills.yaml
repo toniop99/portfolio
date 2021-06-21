@@ -37,7 +37,7 @@ skills:
 
 - name: Laravel
   logo: /images/sections/skills/laravel.png
-  summary: "Con este framework desarrollé mi primera página web profesional. Que recuerdos..."
+  summary: "Un buen framework para desarrollar web y aplicaciones usando buenos patrones de diseños. Con este framework desarrollé mi primera página web profesional. Que recuerdos..."
   url: "https://laravel.com/"
 
 - name: Android

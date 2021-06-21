@@ -8,39 +8,39 @@ section:
 skills:
 - name: Git
   logo: /images/sections/skills/git.png
-  summary: "Experiencia usando un sistema de desarrollo basado en git. Preferiblemente apoyado de GitHub."
+  summary: "Experience using a git-based development system. Preferably supported from GitHub."
   url: "https://git-scm.com/"
 
 - name: JavaScript
   logo: /images/sections/skills/js.png
-  summary: "Uno de los lenguajes que más he utilizado y utilizo a día de hoy. En la mayoría de proyectos con **TypeScript**."
+  summary: "One of the languages ​​that I have used the most and that I use nowadays. In most of projects with **TypeScript**."
 
 - name: NodeJS
   logo: /images/sections/skills/nodejs.png
-  summary: "Se ha convertido en mi servicio por excelencia para implementar el back end de la mayoría de mis servicios y aplicaciones. \nHe realizado contadas incursiones con **Deno**"
+  summary: "It has become my main service to implement the back end of most of my services and applications. \n I have made a few forays with **Deno**."
   url: "https://nodejs.dev/"
 
 - name: ReactJS
   logo: /images/sections/skills/react.png
-  summary: "Maravillosa libreria. La he usado en numeros proyectos. Tanto para páginas web, como para proyectos con **Electron** y algunas pruebas en aplicaciones móviles."
+  summary: "Wonderful library. I have used it in numerous projects. Both for web pages, as for projects with **Electron**."
   url: "https://es.reactjs.org/"
 
 - name: ElectronJS
   logo: /images/sections/skills/electron.png
-  summary: "Me encanta la facilidad que te proporciona para poder crear aplicaciones muy potentes centrándote únicamente en la lógica de tu app y quitándote las complejidades del SO."
+  summary: "I love the ease it gives you to create very powerful applications by focusing only on the logic of your app and taking away the complexities of the OS."
   url: "https://www.electronjs.org/"
 
 - name: PHP
   logo: /images/sections/skills/php.png
-  summary: "Por aquí fue por donde empezó mi incursión a la web..."
+  summary: "This is where my foray into the web began..."
   url: "https://www.php.net/"
 
 - name: Laravel
   logo: /images/sections/skills/laravel.png
-  summary: "Con este framework desarrollé mi primera página web profesional. Que recuerdos..."
+  summary: "A good framework for develop webs and applications using good developing patterns. With this framework I developed my first professional website."
   url: "https://laravel.com/"
 
 - name: Android
   workInProgress: true
   logo: /images/sections/skills/android.png
-  summary: "Aún estoy explorando en el mundo de Android junto con Kotlin."
+  summary: "I am still exploring in the Android world together with Kotlin."
