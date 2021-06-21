@@ -35,15 +35,6 @@
     {{ $sections = (index site.Data site.Language.Lang).sections }}
   {{ end }}
 
-  {{ $copyrightNotice := "© 2021 Copyright."}}
-  {{ if (index site.Data site.Language.Lang).site }}
-    {{ $siteConfig := (index site.Data site.Language.Lang).site }}
-    {{ if $siteConfig.copyright }}
-      {{ $copyrightNotice = $siteConfig.copyright }}
-    {{ end }}
-  {{ end }}
-
-
   {{ $disclaimer := "" }}
   {{ $siteConfig := (index site.Data site.Language.Lang).site }}
   {{ if $siteConfig.disclaimer }} 
@@ -133,11 +124,6 @@
       <p id="disclaimer"><strong>{{ i18n "disclaimer_text" }}:</strong> {{ $disclaimer }}</p>
     </div>
     {{ end }}
-    {{ if $credentialsEnabled }}
-    <hr />
-    <div class="container">
-        <div class="text-center">{{ $copyrightNotice | markdownify }}</div>
-    </div>
-    {{ end }}
+   
   </footer>
 {{end}}
