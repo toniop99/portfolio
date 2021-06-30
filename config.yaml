@@ -39,10 +39,10 @@ params:
   background: images/site/city-background.jpg
   image_404: images/site/image_404.png
 
-  logo:
-    main: images/logos/main-logo.png
-    inverted: images/logos/inverted-logo.png
-    favicon: images/logos/favicon.png
+  # logo:
+  #   main: images/logos/main-logo.png
+  #   inverted: images/logos/inverted-logo.png
+  #   favicon: images/logos/favicon.png
 
   # GitHub repo URL of your site
   gitRepo: https://github.com/toniop99/portfolio
