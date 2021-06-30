@@ -1,7 +1,7 @@
 section:
   name: Contat me
   id: contact
-  enable: true
+  enable: false
   weight: 4
   showOnNavbar: true
   template: sections/contact.html
