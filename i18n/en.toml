@@ -23,6 +23,9 @@ other = "Navigation"
 [contact_me]
 other = "Contact me:"
 
+[contact_with_me]
+other = "Contact me!"
+
 [email]
 other = "Email"
 
