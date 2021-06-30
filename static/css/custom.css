@@ -7,3 +7,20 @@
     background-color: #8c52ff; 
     color: white;
 }
+
+.home .greeting-subtitle {
+    color: #d31ec4!important;
+}
+
+.social-link a{
+    font-size: 1.3rem!important;
+}
+
+.social-link a {
+    text-decoration: none;
+}
+
+.social-link a:hover {
+    color: #d31ec4!important;
+    transition: all 0.2s ease-in!important;
+  }

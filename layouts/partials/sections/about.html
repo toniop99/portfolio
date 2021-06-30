@@ -24,7 +24,8 @@
       <p class="p-1 text-justify">
         {{ .summary | markdownify }}
       </p>
-      <div class="text-container ml-auto">
+      <div class="text-container">
+        <h4>{{i18n "contact_with_me"}}</h4>
         <ul class="social-link d-flex">
           {{ range .socialLinks }}
           <li>
@@ -33,7 +34,10 @@
             {{ else if eq .name "Phone" }}
               <a href="tel:{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
             {{ else }}
-              <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener"><i class="{{ .icon }}"></i></a>
+              <a href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener">
+                <i class="{{ .icon }}"></i> 
+                {{.name}}
+                </a>
             {{ end }}
           </li>
           {{ end }}
