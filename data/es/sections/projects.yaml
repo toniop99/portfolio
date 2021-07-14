@@ -92,6 +92,18 @@ projects:
     "
   tags: ["hobby", "javascript", "vue", "css", "lib"]  
 
+- name: Imagen diaria NASA
+  logo: 
+  projectImage: 
+  role: Creador - Desarrollador
+  timeline: "Julio 2021 - Jul 2021"
+  url: https://daily-image-nasa.surge.sh/
+  summary: "Una web muy sencilla desarrollada con **vue** que consume la **API APOD (ASTRONOMY PICTURE OF THE DAY)** de la NASA donde diariamente se muestra
+  una imagen o video del universo junto con una breve descripción escrita por un astrónomo profesional.
+  </br>
+  <a href='https://github.com/toniop99/' target='_blank' rel='noopener noreferrer'>Github repo</a></br>
+    "
+  tags: ["hobby", "javascript", "vue", "css", "front"]  
 
 - name: DefinitelyTyped
   logo: /images/sections/projects/DefinitelyTyped/logo.png

@@ -92,7 +92,20 @@ projects:
   <a href='https://github.com/toniop99/vue-terminal-component' target='_blank' rel='noopener noreferrer'>Github repo</a></br>
   <a href='https://www.npmjs.com/package/@chapikas/vue-terminal-component' target='_blank' rel='noopener noreferrer'>npm package</a>
     "
-  tags: ["hobby", "javascript", "vue", "css", "lib"]  
+  tags: ["hobby", "javascript", "vue", "css", "front", "lib"]
+
+- name: Daily NASA image (APOD)
+  logo: 
+  projectImage: 
+  role: Creator - Developer
+  timeline: "Jul 2021 - Jul 2021"
+  url: https://daily-image-nasa.surge.sh/
+  summary: "A simple webpage developed with **vue** that consume the **API APOD (ASTRONOMY PICTURE OF THE DAY)** of NASA,
+  where daily it shows a picture or video related to the universe together a short description written by a professional astronomer.
+  </br>
+  <a href='https://github.com/toniop99/' target='_blank' rel='noopener noreferrer'>Github repo</a></br>
+    "
+  tags: ["hobby", "javascript", "vue", "css", "front"]  
 
 - name: DefinitelyTyped
   logo: /images/sections/projects/DefinitelyTyped/logo.png
