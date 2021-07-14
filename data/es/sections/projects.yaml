@@ -72,6 +72,27 @@ projects:
   summary: "Api para la creación de urls acortadas. Implementado con json web token, para el control de acceso y con MongoDB como base de datos." 
   tags: ["hobby", "typescript", "express", "jwt", "swagger", "MongoDB"]  
 
+- name: Terminal Web
+  logo: 
+  projectImage: /images/sections/projects/web_terminal/preview.png
+  role: Creador - Desarrollador
+  timeline: "Julio 2021 - Actualidad"
+  url: https://toniop99-terminal.surge.sh/
+  summary: "Web para mostrar un componente de Vue. La idea era tener un diseño muy similar
+  al de una terminal en cuanto a estilo. En cuanto a funcionalidad, basicamente 
+  darle la opción al usuario de comunicarse a través de comandos.
+    <ul>
+      <li>Cambiar colores de la web.</li>
+      <li>Navegar por la web con comandos. (Como si de directorios se tratase)</li>
+      <li>Pedir cualquier tipo de información a través de la terminal</li>
+    </ul>
+  
+  <a href='https://github.com/toniop99/vue-terminal-component' target='_blank' rel='noopener noreferrer'>Github repo</a></br>
+  <a href='https://www.npmjs.com/package/@chapikas/vue-terminal-component' target='_blank' rel='noopener noreferrer'>Paquete npm</a>
+    "
+  tags: ["hobby", "javascript", "vue", "css", "lib"]  
+
+
 - name: DefinitelyTyped
   logo: /images/sections/projects/DefinitelyTyped/logo.png
   role: Colaborador
