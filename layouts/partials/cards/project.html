@@ -44,7 +44,7 @@
         {{ end }}
 
         <!-- Display project card technology tags -->
-        <div class="project-card-footer">
+        <div class="project-card-footer mt-3">
           {{ if .tags }}
             <div class="project-tags-holder">
               {{ range $index,$tag:= .tags }}
@@ -67,7 +67,7 @@
             {{ else if .url }}
             <span>
               <a
-                class="btn btn-outline-info btn-sm"
+                class="btn btn-outline-info custom-button-url btn-lm"
                 href="{{ .url }}"
                 target="#"
                 >{{ i18n "project_details" }}</a

@@ -1,26 +1,40 @@
+.project-tags-holder {
+    padding-top: 10px;
+}
+
 .project-tags-holder span {
-    background-color: #8c52ff; 
-    color: white;
+  background-color: #8c52ff;
+  color: white;
+}
+
+.custom-button-url {
+  color: #8c52ff !important;
+  border: 1.5px solid transparent;
+  border-color: #8c52ff !important;
+}
+
+.custom-button-url:hover {
+  background-color: #8c52ff !important;
 }
 
 .skill-work-in-progress {
-    background-color: #8c52ff; 
-    color: white;
+  background-color: #8c52ff;
+  color: white;
 }
 
 .home .greeting-subtitle {
-    color: #d31ec4!important;
-}
-
-.social-link a{
-    font-size: 1.3rem!important;
+  color: #d31ec4 !important;
 }
 
 .social-link a {
-    text-decoration: none;
+  font-size: 1.3rem !important;
+}
+
+.social-link a {
+  text-decoration: none;
 }
 
 .social-link a:hover {
-    color: #d31ec4!important;
-    transition: all 0.2s ease-in!important;
-  }
+  color: #d31ec4 !important;
+  transition: all 0.2s ease-in !important;
+}
