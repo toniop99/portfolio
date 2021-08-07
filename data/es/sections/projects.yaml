@@ -12,8 +12,17 @@ buttons:
     filter: "professional"
   - name: Hobby
     filter: "hobby"
-  
+# Tags [proffesional, hobby, Laravel, Vue, express, typescript]
 projects:
+- name: Cine Bahía
+  logo: /images/sections/projects/cine_bahia/logo.png
+  projectImage: /images/sections/projects/cine_bahia/preview.png
+  role: Desarrollador
+  timeline: "Agosto 2021 - Agosto 2021"
+  url: "https://www.cinebahiamazarron.com/"
+  summary: Página web para mostrar la cartelera e información útil del cine de Verano situado en Mazarrón (Murcia).
+  tags: ["professional", "Vue"]
+
 - name: Web Printlab
   logo: /images/sections/projects/printlab/logo.png
   projectImage: /images/sections/projects/printlab/preview.png
@@ -21,7 +30,7 @@ projects:
   timeline: "Octubre 2020 - Diciembre 2020"
   url: "https://printlab.es/#/"
   summary: Desarrollo de página web para laboratorio fotográfico con una zona interna para customizar la web.
-  tags: ["professional", "laravel", "Vue"]
+  tags: ["professional", "Laravel", "Vue", "front"]
 
 - name: Fotaka
   logo: /images/sections/projects/fotaka/logo.png
@@ -32,7 +41,7 @@ projects:
   summary: >
     Creación de la página web con un servicio para la visión de orlas interactivas. Usando <b>Laravel</b> y <b>Blade como motor de plantillas</b>.
     En futuras versiones preveo el uso de React o vue para servir la web. Aún en desarrollo.
-  tags: ["professional", "laravel", "blade"]
+  tags: ["professional", "Laravel"]
 
 - name: Offers Bot
   logo: /images/sections/projects/offers_bot/logo.png
@@ -90,7 +99,7 @@ projects:
   <a href='https://github.com/toniop99/vue-terminal-component' target='_blank' rel='noopener noreferrer'>Github repo</a></br>
   <a href='https://www.npmjs.com/package/@chapikas/vue-terminal-component' target='_blank' rel='noopener noreferrer'>Paquete npm</a>
     "
-  tags: ["hobby", "javascript", "vue", "css", "lib"]  
+  tags: ["hobby", "javascript", "Vue", "css", "lib"]  
 
 - name: Imagen diaria NASA
   logo: 
@@ -103,7 +112,7 @@ projects:
   </br>
   <a href='https://github.com/toniop99/' target='_blank' rel='noopener noreferrer'>Github repo</a></br>
     "
-  tags: ["hobby", "javascript", "vue", "css", "front"]  
+  tags: ["hobby", "javascript", "Vue", "css", "front"]  
 
 - name: DefinitelyTyped
   logo: /images/sections/projects/DefinitelyTyped/logo.png

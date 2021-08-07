@@ -14,6 +14,15 @@ buttons:
     filter: "hobby"
   
 projects:
+- name: Cine Bahía
+  logo: /images/sections/projects/cine_bahia/logo.png
+  projectImage: /images/sections/projects/cine_bahia/preview.png
+  role: Desarrollador
+  timeline: "Agosto 2021 - Agosto 2021"
+  url: "https://www.cinebahiamazarron.com/"
+  summary: Webpage to show useful information and the billboard of the Summer cinema located in Mazarrón (Murcia)
+  tags: ["professional", "Vue"]
+  
 - name: Web Printlab
   logo: /images/sections/projects/printlab/logo.png
   projectImage: /images/sections/projects/printlab/preview.png
@@ -21,7 +30,7 @@ projects:
   timeline: "Oct 2020 - Dec 2020"
   url: "https://printlab.es/#/"
   summary: Development of a website for a photographic laboratory with an internal area to customize the website.
-  tags: ["professional", "laravel", "Vue"]
+  tags: ["professional", "Laravel", "Vue"]
 
 - name: Fotaka
   logo: /images/sections/projects/fotaka/logo.png
@@ -32,7 +41,7 @@ projects:
   summary: >
     Creation of the web page with a service for the vision of interactive graduation class photo. Using <b> Laravel </b> and <b> Blade as templating engine </b>.
     In future versions I foresee the use of React or vue to serve the web. Still in development.
-  tags: ["professional", "laravel", "blade"]
+  tags: ["professional", "Laravel"]
 
 - name: Offers Bot
   logo: /images/sections/projects/offers_bot/logo.png
