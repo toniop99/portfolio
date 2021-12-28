@@ -3,3 +3,5 @@ resources
 public
 out
 .env
+.DS_Store
+.hugo_build.lock
