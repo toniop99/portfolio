@@ -3,3 +3,10 @@ copyright: © 2021 Copyright.
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: Portfolio y blog personal - Antonio Hernández.
+
+openGraph:
+  title: Tony Portfolio
+  type: website
+  description: Portfolio and personal blog - Antonio Hernández.
+  image: images/site/webpage_preview.png
+  url: https://antoniohnz.me
