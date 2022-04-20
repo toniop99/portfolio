@@ -2,26 +2,41 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 2
 
 experiences:
 - company:
-    name: Fotaka
-    url: "https://fotaka.org/"
+    name: Tahe
+    url: "https://tahecosmetics.com/"
     location: Murcia
-    overview: Company dedicated to proffesional photography and videography.
-    
+    overview: Web development and design
+
   positions:
-  - designation: Video and photo editing
-    start: May 2019
+  - designation: Full stack web developer responsible
+    start: Jan 2022
 
     responsibilities:
-    - Development of video editing.
-    - Professional photo editing.
-    - web page creation.
-    - Development of a contract management system.
-    - IT security and management.
+      - IT project planning and management
+      - System design
+      - Stack PHP, Laravel, NodeJS, Javascript, VueJS, NestJS.
+      - Implementation and design of new functionalities
 
+- company:
+    name: Tahe
+    url: "https://tahecosmetics.com/"
+    location: Murcia
+    overview: Web development and design
+
+  positions:
+  - designation: Responsable desarrollo web full stack
+    start: Sep 2021
+    end: Jan 2022
+
+    responsibilities:
+      - Manage and develop a custom PHP framework.
+      - Working on the development of a multi web platform.
+      - Working on custom apps and services to migrate step by step the monolith.
+      - Always trying to integrate news good practices into the team :).
 
 - company:
     name: Freelance

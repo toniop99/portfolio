@@ -2,7 +2,7 @@ section:
   name: Habilidades
   id: skills
   enable: rue
-  weight: 2
+  weight: 3
   showOnNavbar: true
 
 skills:
@@ -19,6 +19,11 @@ skills:
   logo: /images/sections/skills/nodejs.png
   summary: "Se ha convertido en mi servicio por excelencia para implementar el back end de la mayoría de mis servicios y aplicaciones. \nHe realizado contadas incursiones con **Deno**"
   url: "https://nodejs.dev/"
+
+- name: VueJS
+  logo: /images/sections/skills/vue.png
+  summary: "Flexible y adaptable para cualquier tipo de proyecto. Ya sea para construir una web app rápida, como para un proyecto grande y escalable, es una muy buena solución para adaptar al equipo."
+  url: "https://vuejs.org/"
 
 - name: ReactJS
   logo: /images/sections/skills/react.png

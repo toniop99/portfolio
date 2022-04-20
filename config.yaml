@@ -31,6 +31,9 @@ outputs:
   - HTML
   - RSS
   - JSON
+  page:
+  - HTML
+  - RSS
 
 enableEmoji: true
 
@@ -44,11 +47,6 @@ params:
   #   inverted: images/logos/inverted-logo.png
   #   favicon: images/logos/favicon.png
 
-  # GitHub repo URL of your site
-  gitRepo: https://github.com/toniop99/portfolio
-
-  # specify whether you want to write some blog posts or not
-  enableBlogPost: false
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true
@@ -56,4 +54,18 @@ params:
   # Provide newsletter configuration. This feature hasn't been implemented yet.
   # Currently, you can just hide it from the footer.
   newsletter:
-    false: true
+    enable: false
+
+  enableTags: true
+
+  features:
+    portfolio:
+      enable: false
+
+    blog:
+      enable: false
+      shareButtons:
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
