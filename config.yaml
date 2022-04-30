@@ -3,7 +3,6 @@ baseURL: https://antoniohnz.me/
 languageCode: es-ES
 title: "Tony"
 theme: "toha"
-googleAnalytics: G-FPMKHKLW50
 
 defaultContentLanguage: es
 
@@ -42,10 +41,10 @@ params:
   background: images/site/city-background.jpg
   image_404: images/site/image_404.png
 
-  # logo:
-  #   main: images/logos/main-logo.png
-  #   inverted: images/logos/inverted-logo.png
-  #   favicon: images/logos/favicon.png
+  logo:
+    main: images/logos/main-logo.png
+    inverted: images/logos/inverted-logo.png
+    favicon: images/logos/favicon.png
 
 
   # specify whether you want to show Table of Contents in reading page
@@ -59,6 +58,11 @@ params:
   enableTags: true
 
   features:
+    analytics:
+      enabled: true
+      counterDev:
+        id: toniop99
+
     portfolio:
       enable: false
 
