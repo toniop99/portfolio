@@ -62,6 +62,7 @@ params:
       enabled: true
       counterDev:
         id: toniop99
+        referrerPolicy: no-referrer-when-downgrade
 
     portfolio:
       enable: false
