@@ -18,10 +18,6 @@ jobs:
         with:
           node-version: 20
 
-      # Chapucilla
-      - name: Swap Go Version
-        run: sed -i -e 's/1.21.6/1.23/g' go.mod
-
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2.6.0
         with:
@@ -30,6 +26,9 @@ jobs:
 
       - name: Update hugo modules
         run: |
+          # Chapucilla
+          sed -i -e 's/1.21.6/1.23/g' go.mod
+          
           # update to latest version of all modules
           hugo mod get -u
 
