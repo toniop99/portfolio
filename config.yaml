@@ -75,7 +75,7 @@ params:
       enabled: true
       services:
         counterDev:
-          id: toniop99
+          id: 5e29af01-31e1-4003-be2f-d38966ecf4fb
           referrerPolicy: no-referrer-when-downgrade
 
     darkMode:
